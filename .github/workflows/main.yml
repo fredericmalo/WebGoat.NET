@@ -17,3 +17,4 @@ jobs:
           base_uri: https://master1.cxast.com
           client_id: ${{ secrets.CLIENT_ID }}
           secret: ${{ secrets.SECRET }}
+          project_type: sast,kics,sca
