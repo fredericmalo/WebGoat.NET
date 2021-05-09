@@ -15,6 +15,6 @@ jobs:
         uses: checkmarxDev/ast-github-action@master #Github Action version
         with:
           base_uri: https://master1.cxast.com
-          client_id: ${{ secrets.CLIENT_ID }}
-          secret: ${{ secrets.SECRET }}
+          cx_client_id: ${{ secrets.CLIENT_ID }}
+          cx_secret: ${{ secrets.SECRET }}
           scan_types: sast,kics,sca
