@@ -14,9 +14,8 @@ jobs:
       - name: Checkmarx AST CLI Action
         uses: checkmarxDev/ast-github-action@master #Github Action version
         with:
-          project_name: WebGoat_Project_v1
-          base_uri: https://ast-master.dev.cxast.net
-          #cx_apikey: ${{ secrets.APIKEY }}
+          project_name: WebGoat-V2-from-Github-Action
+          base_uri: https://ast-master.dev.cxast.net #
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
           scan_types: sast,kics,sca
