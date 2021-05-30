@@ -15,6 +15,7 @@ jobs:
         uses: checkmarxDev/ast-github-action@master #Github Action version
         with:
           project_name: WebGoat-V2-from-Github-Action
+          cx_tenant: david_tenant
           base_uri: https://ast-master.dev.cxast.net #
           cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
