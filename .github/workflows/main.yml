@@ -14,7 +14,7 @@ jobs:
       - name: Checkmarx AST CLI Action
         uses: checkmarxDev/ast-github-action@master #Github Action version
         with:
-          project_name: WebGoat-V2-from-Github-Action-DAZN
+          project_name: WebGoat-V2-from-Github-Action-Decathlon
           cx_tenant: david_tenant
           base_uri: https://eu.ast.checkmarx.net # https://ast-master.dev.cxast.net #
           cx_client_id: ${{ secrets.CLIENT_ID }}
