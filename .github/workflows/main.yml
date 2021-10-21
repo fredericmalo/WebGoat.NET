@@ -17,6 +17,6 @@ jobs:
           project_name: Decathlon-WebGoat-V2-from-Github-Action
           cx_tenant: david_tenant
           base_uri: https://eu.ast.checkmarx.net # https://ast-master.dev.cxast.net #
-          cx_client_id: ${{ secrets.CLIENT_ID }}
-          cx_client_secret: ${{ secrets.SECRET }}
+          cx_client_id: ${{ secrets.CXAST_CLIENT_ID }}
+          cx_client_secret: ${{ secrets.CxAST_SECRET }}
           scan_types: sast,kics,sca
