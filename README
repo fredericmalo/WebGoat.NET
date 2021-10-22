@@ -22,7 +22,7 @@ Notes:
    --disable-xss-auditor. 
 - Some (but not all!) of the lessons require a working SQL database. Setup
   guidelines are shown below.
-
+ 
 How To Build And Run under Mac OS X and Linux:
   1. Prerequisites
      a. Mono framework for your respective OS. It can be downloaded at
