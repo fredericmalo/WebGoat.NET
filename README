@@ -50,7 +50,7 @@ How To Build And Run under Mac OS X and Linux:
      hopefully you should be good go! Enjoy your hackathon!
 
 How to build and run under Windows:
-  1. Prerequisites:
+  1. Prerequisites: 
      a. Visual Studio 2010 and above.
      b. Mysql database that's up and running with at least one user
         aleady setup with full permissions.
