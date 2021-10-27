@@ -38,7 +38,7 @@ How To Build And Run under Mac OS X and Linux:
      errors! If there are please let us know.
   6. cd into the WebGoat project and run 'xsp4'. Then open your favorite
      browser and go to http://localhost:8080 (or whatever port your
-     xsp4 is using if you're not using the default). Note: The first run
+     xsp4 is using if you're not using the default). Note: The first run 
      may take take some time as it's compiling everything on the fly.
   7. If you see the WebGoat.NET page that means you're almost there! Next
      step is to click on 'Set Up Database!'
